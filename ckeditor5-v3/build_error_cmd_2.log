@@ -1,0 +1,412 @@
+assets by status 4.24 MiB [1m[32m[cached][39m[22m 72 assets
+orphan modules 6.27 MiB [1m[33m[orphan][39m[22m 1755 modules
+runtime modules 2.44 KiB 7 modules
+cacheable modules 6.41 MiB
+  modules by path [1m./node_modules/@ckeditor/[39m[22m 552 KiB 99 modules
+  modules by path [1m./node_modules/color-convert/*.js[39m[22m 20.5 KiB
+    [1m./node_modules/color-convert/index.js[39m[22m 1.67 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./node_modules/color-convert/conversions.js[39m[22m 16.6 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./node_modules/color-convert/route.js[39m[22m 2.2 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  modules by path [1m./node_modules/css-loader/dist/runtime/*.js[39m[22m 2.74 KiB
+    [1m./node_modules/css-loader/dist/runtime/sourceMaps.js[39m[22m 505 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./node_modules/css-loader/dist/runtime/api.js[39m[22m 2.25 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./src/ckeditor.js + 1310 modules[39m[22m 5.84 MiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js[39m[22m 6.67 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]![1m./node_modules/@webspellchecker/wproofreader-ckeditor5/theme/wproofreader.css[39m[22m 773 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m./node_modules/color-name/index.js[39m[22m 4.51 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/theme/revisionssidebar/revisionssidebar.css[39m[22m (./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/@ckeditor/ckeditor5-revision-history/theme/revisionssidebar/revisionssidebar.css)
+[1mModule Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+(22:3) from "autoprefixer" plugin: start value has mixed support, consider using flex-start instead
+
+Code:
+  align-items:start
+[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/theme/revisionssidebar/revisionssidebar.css 2:12-161 9:17-24 13:15-29
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/ui/revisionssidebar/revisionssidebarview.js 23:1965-2026
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/ui/revisionssidebar/revisionssidebar.js 23:699-748 23:1525-1534
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1460-1543 23:1460-1543
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/node_modules/ckeditor5-collaboration/src/collaboration-core.js[39m[22m [1m[32m23:586-638[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\node_modules\ckeditor5-collaboration\src'[39m[22m
+resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\node_modules\ckeditor5-collaboration\src'
+  Parsed request is a module
+  using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\node_modules\ckeditor5-collaboration\package.json (relative path: ./src)
+    aliased with mapping '@ckeditor': 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor' to 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor/ckeditor5-collaboration-core'
+      using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\node_modules\ckeditor5-collaboration\package.json (relative path: ./src)
+        Field 'browser' doesn't contain a valid alias configuration
+        using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\package.json (relative path: ./node_modules/@ckeditor/ckeditor5-collaboration-core)
+          no extension
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+          .js
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.js doesn't exist[39m[22m
+          .json
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.json doesn't exist[39m[22m
+          .wasm
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.wasm doesn't exist[39m[22m
+          as directory
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:886-1026 23:2047-2056 23:11318-11327 23:16029-16038 23:16109-16118 23:17309-17318 23:23297-23306 23:23318-23327 23:23999-24008 24:2743-2752 25:159-168
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/annotations/annotations.js[39m[22m [1m[32m23:2622-2714[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\src\annotations'[39m[22m
+resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\src\annotations'
+  Parsed request is a module
+  using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\package.json (relative path: ./src/annotations)
+    aliased with mapping '@ckeditor': 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor' to 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor/ckeditor5-collaboration-core'
+      using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-comments\package.json (relative path: ./src/annotations)
+        Field 'browser' doesn't contain a valid alias configuration
+        using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\package.json (relative path: ./node_modules/@ckeditor/ckeditor5-collaboration-core)
+          no extension
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+          .js
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.js doesn't exist[39m[22m
+          .json
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.json doesn't exist[39m[22m
+          .wasm
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.wasm doesn't exist[39m[22m
+          as directory
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1798-1851 23:2027-2036 23:3024-3033 23:6622-6631 23:9128-9137 23:13601-13610 23:22051-22060 23:22831-22840
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsediting.js[39m[22m [1m[32m23:4290-4299[39m[22m
+[1mexport 'Users' (imported as '_0x3560e1') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:681-734 23:1696-1705
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsediting.js[39m[22m [1m[32m23:27990-27999[39m[22m
+[1mexport 'Users' (imported as '_0x3560e1') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:681-734 23:1696-1705
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsediting.js[39m[22m [1m[32m23:33452-33461[39m[22m
+[1mexport 'getAllMarkersDomElementsSorted' (imported as '_0x37561c') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:681-734 23:1696-1705
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsediting.js[39m[22m [1m[32m23:36237-36246[39m[22m
+[1mexport 'surroundingMarkersDetector' (imported as '_0x229152') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:681-734 23:1696-1705
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsediting.js[39m[22m [1m[32m23:36675-36684[39m[22m
+[1mexport 'FOCUS_ANNOTATION_KEYSTROKE' (imported as '_0x2440b3') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:681-734 23:1696-1705
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:2047-2056[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:11318-11327[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:16029-16038[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:16109-16118[39m[22m
+[1mexport 'getDateTimeFormatter' (imported as '_0x46e9f1') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:17309-17318[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:23297-23306[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:23318-23327[39m[22m
+[1mexport 'hashObject' (imported as '_0x560e9e') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m23:23999-24008[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m24:2743-2752[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js[39m[22m [1m[32m25:159-168[39m[22m
+[1mexport 'Users' (imported as '_0xc46851') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/integrations/importword.js[39m[22m [1m[32m23:1321-1330[39m[22m
+[1mexport 'Users' (imported as '_0x143126') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsediting.js 23:3642-3694 23:4310-4319
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:681-734 23:1696-1705
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/integrations/importword.js[39m[22m [1m[32m23:2080-2089[39m[22m
+[1mexport 'Users' (imported as '_0x143126') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsediting.js 23:3642-3694 23:4310-4319
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:681-734 23:1696-1705
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/basecommentthreadview.js[39m[22m [1m[32m23:3134-3143[39m[22m
+[1mexport 'AriaDescriptionView' (imported as '_0x3aefcb') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentthreadview.js 23:2511-2561 24:10-19
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1184-1238 23:2749-2758
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/basecommentthreadview.js[39m[22m [1m[32m23:5681-5690[39m[22m
+[1mexport 'setupThreadKeyboardNavigation' (imported as '_0x24d0a6') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentthreadview.js 23:2511-2561 24:10-19
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1184-1238 23:2749-2758
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/basecommentview.js[39m[22m [1m[32m23:3451-3460[39m[22m
+[1mexport 'AriaDescriptionView' (imported as '_0x3a8002') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentview.js 23:3108-3152 24:10-19
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1238-1286 23:2805-2814
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/basecommentview.js[39m[22m [1m[32m23:5982-5991[39m[22m
+[1mexport 'trimHtml' (imported as '_0x3e040b') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentview.js 23:3108-3152 24:10-19
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1238-1286 23:2805-2814
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentthreadinputview.js[39m[22m [1m[32m23:2636-2645[39m[22m
+[1mexport 'UserView' (imported as '_0x313be0') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsui.js 23:2757-2816 23:3249-3258
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:734-782 23:1706-1715
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentthreadview.js[39m[22m [1m[32m24:0-9[39m[22m
+[1mexport 'ConfirmMixin' (imported as '_0x232a0e') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1184-1238 23:2749-2758
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentthreadview.js[39m[22m [1m[32m24:3273-3282[39m[22m
+[1mexport 'LateFocusButtonView' (imported as '_0x119530') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1184-1238 23:2749-2758
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentview.js[39m[22m [1m[32m24:0-9[39m[22m
+[1mexport 'ConfirmMixin' (imported as '_0x130918') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1238-1286 23:2805-2814
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentview.js[39m[22m [1m[32m24:879-888[39m[22m
+[1mexport 'UserView' (imported as '_0x2aca0b') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1238-1286 23:2805-2814
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-comments/src/comments/ui/view/commentview.js[39m[22m [1m[32m24:4669-4678[39m[22m
+[1mexport 'LateFocusDropdownButtonView' (imported as '_0x3dae01') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments/commentsrepository.js 23:1238-1286 23:2805-2814
+ @ ./node_modules/@ckeditor/ckeditor5-comments/src/comments.js 23:625-681 23:1686-1695
+ @ ./src/ckeditor.js 11:0-68 72:1-9
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/node_modules/ckeditor5-collaboration/src/collaboration-core.js[39m[22m [1m[32m23:624-676[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-revision-history\node_modules\ckeditor5-collaboration\src'[39m[22m
+resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-revision-history\node_modules\ckeditor5-collaboration\src'
+  Parsed request is a module
+  using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-revision-history\node_modules\ckeditor5-collaboration\package.json (relative path: ./src)
+    aliased with mapping '@ckeditor': 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor' to 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor/ckeditor5-collaboration-core'
+      using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-revision-history\node_modules\ckeditor5-collaboration\package.json (relative path: ./src)
+        Field 'browser' doesn't contain a valid alias configuration
+        using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\package.json (relative path: ./node_modules/@ckeditor/ckeditor5-collaboration-core)
+          no extension
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+          .js
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.js doesn't exist[39m[22m
+          .json
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.json doesn't exist[39m[22m
+          .wasm
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.wasm doesn't exist[39m[22m
+          as directory
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/revisionhistory.js 23:3743-3840 23:6886-6895
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1021-1082 23:1021-1082
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/src/revisionhistory.js[39m[22m [1m[32m23:6886-6895[39m[22m
+[1mexport 'sanitizeEditorConfig' (imported as '_0x30d3ec') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1021-1082 23:1021-1082
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/src/revisionsrepository.js[39m[22m [1m[32m23:1877-1886[39m[22m
+[1mexport 'Users' (imported as '_0x5c6b82') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1082-1151 23:1082-1151
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/src/revisiontracker.js[39m[22m [1m[32m23:6762-6771[39m[22m
+[1mexport 'Users' (imported as '_0x54734c') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1340-1401 23:1340-1401
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/src/revisionviewer.js[39m[22m [1m[32m23:6746-6755[39m[22m
+[1mexport 'Users' (imported as '_0x51e185') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1401-1460 23:1401-1460
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/src/revisionviewer.js[39m[22m [1m[32m23:63694-63703[39m[22m
+[1mexport 'getMarkerDomElement' (imported as '_0x5dc147') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1401-1460 23:1401-1460
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-revision-history/src/ui/revision/revisionview.js[39m[22m [1m[32m24:0-9[39m[22m
+[1mexport 'ConfirmMixin' (imported as '_0x8d5d9e') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/ui/revisionssidebar/revisionssidebartimeperiodview.js 23:684-735 23:2606-2615
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/ui/revisionssidebar/revisionssidebarview.js 23:1573-1632 23:4544-4553
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/ui/revisionssidebar/revisionssidebar.js 23:699-748 23:1525-1534
+ @ ./node_modules/@ckeditor/ckeditor5-revision-history/src/index.js 23:1460-1543 23:1460-1543
+ @ ./src/ckeditor.js 60:0-71 122:1-16
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/node_modules/ckeditor5-collaboration/src/collaboration-core.js[39m[22m [1m[32m23:624-676[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-track-changes\node_modules\ckeditor5-collaboration\src'[39m[22m
+resolve '@ckeditor/ckeditor5-collaboration-core' in 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-track-changes\node_modules\ckeditor5-collaboration\src'
+  Parsed request is a module
+  using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-track-changes\node_modules\ckeditor5-collaboration\package.json (relative path: ./src)
+    aliased with mapping '@ckeditor': 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor' to 'D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor/ckeditor5-collaboration-core'
+      using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-track-changes\node_modules\ckeditor5-collaboration\package.json (relative path: ./src)
+        Field 'browser' doesn't contain a valid alias configuration
+        using description file: D:\aot\legalapp\vue-frontend\ckeditor5-v3\package.json (relative path: ./node_modules/@ckeditor/ckeditor5-collaboration-core)
+          no extension
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+          .js
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.js doesn't exist[39m[22m
+          .json
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.json doesn't exist[39m[22m
+          .wasm
+            Field 'browser' doesn't contain a valid alias configuration
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core.wasm doesn't exist[39m[22m
+          as directory
+[1m[31m            D:\aot\legalapp\vue-frontend\ckeditor5-v3\node_modules\@ckeditor\ckeditor5-collaboration-core doesn't exist[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchanges.js 23:936-994
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:603-658 23:603-658
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesdata.js[39m[22m [1m[32m23:5082-5091[39m[22m
+[1mexport 'sanitizeEditorConfig' (imported as '_0x38ab50') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:901-964 23:901-964
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesediting.js[39m[22m [1m[32m23:12197-12206[39m[22m
+[1mexport 'Users' (imported as '_0x398f4d') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:964-1033 23:964-1033
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesediting.js[39m[22m [1m[32m23:83412-83421[39m[22m
+[1mexport 'hashObject' (imported as '_0x156989') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:964-1033 23:964-1033
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesediting.js[39m[22m [1m[32m23:95401-95410[39m[22m
+[1mexport 'hashObject' (imported as '_0x156989') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:964-1033 23:964-1033
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesediting.js[39m[22m [1m[32m23:101970-101978[39m[22m
+[1mexport 'surroundingMarkersDetector' (imported as '_0x7c80c') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:964-1033 23:964-1033
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesediting.js[39m[22m [1m[32m23:102559-102568[39m[22m
+[1mexport 'FOCUS_ANNOTATION_KEYSTROKE' (imported as '_0xd5690b') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:964-1033 23:964-1033
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesediting.js[39m[22m [1m[32m23:105636-105645[39m[22m
+[1mexport 'hashObject' (imported as '_0x156989') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:964-1033 23:964-1033
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesediting.js[39m[22m [1m[32m23:113708-113717[39m[22m
+[1mexport 'hashObject' (imported as '_0x156989') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:964-1033 23:964-1033
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesui.js[39m[22m [1m[32m23:4937-4946[39m[22m
+[1mexport 'Users' (imported as '_0x43fa41') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchanges.js 23:845-888 23:1107-1116
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:603-658 23:603-658
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesui.js[39m[22m [1m[32m23:16098-16107[39m[22m
+[1mexport 'Users' (imported as '_0x43fa41') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchanges.js 23:845-888 23:1107-1116
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:603-658 23:603-658
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesui.js[39m[22m [1m[32m23:17065-17074[39m[22m
+[1mexport 'getDateTimeFormatter' (imported as '_0x46e4bc') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchanges.js 23:845-888 23:1107-1116
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:603-658 23:603-658
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchangesui.js[39m[22m [1m[32m23:18978-18986[39m[22m
+[1mexport 'getAllMarkersDomElementsSorted' (imported as '_0xbf79e') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/trackchanges.js 23:845-888 23:1107-1116
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:603-658 23:603-658
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/ui/view/basesuggestionthreadview.js[39m[22m [1m[32m23:2616-2625[39m[22m
+[1mexport 'AriaDescriptionView' (imported as '_0x3be78b') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:1369-1456 23:1369-1456
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/ui/view/basesuggestionthreadview.js[39m[22m [1m[32m23:4311-4320[39m[22m
+[1mexport 'setupThreadKeyboardNavigation' (imported as '_0x49fedb') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:1369-1456 23:1369-1456
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/ui/view/suggestionthreadview.js[39m[22m [1m[32m23:1824-1833[39m[22m
+[1mexport 'trimHtml' (imported as '_0x74079b') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:1456-1535 23:1456-1535
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/ui/view/suggestionview.js[39m[22m [1m[32m23:3558-3567[39m[22m
+[1mexport 'UserView' (imported as '_0x22aa18') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:1535-1602 23:1535-1602
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+[1m[31mERROR[39m[22m in [1m./node_modules/@ckeditor/ckeditor5-track-changes/src/ui/view/suggestionview.js[39m[22m [1m[32m23:6841-6850[39m[22m
+[1mexport 'LateFocusButtonView' (imported as '_0x1a40f5') was [1m[31mnot found[39m[22m[1m in 'ckeditor5-collaboration/src/collaboration-core.js' (possible exports: [1m[32micons[39m[22m[1m)[39m[22m
+ @ ./node_modules/@ckeditor/ckeditor5-track-changes/src/index.js 23:1535-1602 23:1535-1602
+ @ ./src/ckeditor.js 57:0-83 119:1-13 120:1-17
+
+webpack 5.105.4 compiled with [1m[31m54 errors[39m[22m and [1m[33m1 warning[39m[22m in 25390 ms
