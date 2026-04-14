@@ -26,7 +26,6 @@ npm run serve
 3. Wait a moment for the editor to render the placeholder text.
 4. Click the **Revision History** toolbar button.
 5. Click **Open revision history**.
-6. The editor will vanish/grey out and the revision sidebar does not populate. Checking the console reveals a `Cannot read properties of null (reading 'id')` error within the Revision History plugin.
-
+6. The editor will vanish/grey out and the revision sidebar does not populate
 ### Context
 This minimal repository simulates the exact `addRevisionData()` initialization logic and mocked data fetching constraints from our main Vuex-backed application.
